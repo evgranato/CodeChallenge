@@ -1,6 +1,6 @@
 const button1 = document.querySelector(".button1")
 const button2 = document.querySelector(".button2")
-const button3 = document.querySelector(".button3")
+const button4 = document.querySelector(".button4")
 const nameInput = document.querySelector("#personName")
 const locationInput = document.querySelector("#personTravel")
 
@@ -20,8 +20,10 @@ nameInput.addEventListener('keydown', (e) => {
     if(e.key !== 'Enter'){
         console.log(e)
     } else {
-        data.name = nameInput.value
-        console.log(data)
+        data.name = nameInput.value;
+        locationInput.style.visibility = "visible"
+        button1.classList.add("highlight")
+        
     }
 })
 locationInput.addEventListener('keydown', (e) => {
@@ -29,6 +31,8 @@ locationInput.addEventListener('keydown', (e) => {
         console.log(e)
     } else {
         data.location = locationInput.value
+        button2.classList.add("highlight")
+        button4.style.visibity = "visible"
         console.log(data)
     }
 })
