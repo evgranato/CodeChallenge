@@ -32,3 +32,4 @@ locationInput.addEventListener('keydown', (e) => {
         console.log(data)
     }
 })
+//test
