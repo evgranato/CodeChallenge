@@ -4,3 +4,7 @@
 .highlight {
     background-color: darkblue !important;
 }
+button:hover {
+    background-color:#007bff;
+
+}
