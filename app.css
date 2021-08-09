@@ -1,5 +1,13 @@
+html, body {
+    background: linear-gradient(to bottom right, royalblue, steelblue);
+    height: 100%
+}
+h1,h2 {
+    color: white !important;
+}
 .formBox {
     background-color: lightgray;
+    max-width: 40em !important;
 }
 .highlight {
     background-color: darkblue !important;
@@ -7,4 +15,7 @@
 button:hover {
     background-color:#007bff;
 
+}
+.confirmation {
+    font-style: italic
 }
